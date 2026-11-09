@@ -25,4 +25,4 @@
 1. Add the following environment variables:
    - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/matchai/`**`6d5f84419863089a167387da62dd7081`**.
    - **GH_TOKEN:** The GitHub token generated above.
-   - **WAKATIME_API_KEY:** The API key for your WakaTime account.
+   - **WAKATIME_OAUTH_TOKEN:** Your personal WakaTime OAuth token from https://wakatime.com/oauth (API keys are plugin-only since 2026-11-01).

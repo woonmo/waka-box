@@ -16,7 +16,7 @@
 1. Create a token with the `gist` scope and copy it. (https://github.com/settings/tokens/new)
 1. Create a WakaTime account (https://wakatime.com/signup)
 1. In your WakaTime profile settings (https://wakatime.com/settings/profile) ensure `Display coding activity publicly` and `Display languages, editors, operating systems publicly` are checked.
-1. In your account settings, copy the existing WakaTime API Key (https://wakatime.com/settings/api-key)
+1. Copy your personal OAuth token (https://wakatime.com/oauth). The secret API key no longer works for reading stats; it is for editor plugins only.
 
 ### Project setup
 
@@ -25,4 +25,4 @@
 1. Add the following environment variables:
    - **GIST_ID:** The ID portion from your gist url: `https://gist.github.com/matchai/`**`6d5f84419863089a167387da62dd7081`**.
    - **GH_TOKEN:** The GitHub token generated above.
-   - **WAKATIME_API_KEY:** The API key for your WakaTime account.
+   - **WAKATIME_OAUTH_TOKEN:** Your personal WakaTime OAuth token from https://wakatime.com/oauth (API keys are plugin-only since 2026-11-01).

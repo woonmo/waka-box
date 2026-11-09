@@ -5,23 +5,9 @@
   "author": "Matan Kushner <hello@matchai.me>",
   "license": "ISC",
   "scripts": {
-    "build": "ncc build index.js --out dist --minify"
+    "test": "node test.js"
   },
-  "dependencies": {
-    "@octokit/rest": "^19.0.5",
-    "axios": "^1.6.0",
-    "dotenv": "^16.0.3",
-    "wakatime-client": "^2.7.0"
-  },
-  "devDependencies": {
-    "@zeit/ncc": "0.20.5",
-    "husky": "3.1.0",
-    "prettier": "1.19.1",
-    "pretty-quick": "2.0.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
+  "engines": {
+    "node": ">=18"
   }
 }
